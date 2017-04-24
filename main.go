@@ -113,6 +113,6 @@ func main() {
 		},
 	}
 
-	whichToBuy := IF(OR(hasBiggerEngine, AND(hasBetterMPG, hasBiggerEngine)), buyCar)
+	whichToBuy := IF(OR(hasBiggerEngine, AND(hasBetterMPG, hasBetterUpholstry)), buyCar)
 	whichToBuy(jaguar, kia)
 }
